@@ -1,6 +1,6 @@
 # Project Cleaner
 
-Simple C# program to clean your projects from assembly/trash files.
+Simple C# program to clean your projects\` assembly/trash files.
 
 ## Functionality
 
@@ -14,9 +14,9 @@ cleaner.Clean();
 Console.WriteLine(cleaner.Statistics());
 ```
 
-### Supported cleaning methods
-Currently there are only 2 types supported:
+### Supported cleaning strategies
+Currently there are only 2 strategies supported:
 ```C#
-StrategyType.VisualStudio //bin, obj folders
-StrategyType.JetBrains //.idea folder
+StrategyType.VisualStudio // -> bin, obj folders
+StrategyType.JetBrains // -> .idea folder
 ```
