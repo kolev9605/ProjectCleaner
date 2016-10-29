@@ -7,7 +7,7 @@ Simple C# program to clean your projects from assembly/trash files.
 The API is pretty straightforward:
 ```C#
 //Initialize the Cleaner class with path to be cleaned and params which describes what to be cleaned
-Cleaner cleaner = new Cleaner(@"C:\Users\Kolev\Desktop\Tets", 
+Cleaner cleaner = new Cleaner(@"E:\Projects", 
 StrategyType.VisualStudio, StrategyType.JetBrains);
 
 cleaner.Clean();
